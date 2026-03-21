@@ -2,12 +2,13 @@
 baseURL = "/"
 title = "Mercury Conference 2026"
 theme = "vixcon-hugo"
-# post pagination
-pagination.pagerSize = 4
 # post excerpt
 summaryLength = "10"
 # disable language
 disableLanguages = [] # desable language from here
+# post pagination
+[pagination]
+pagination.pagerSize = 4
 
 ########################### Services #############################
 [services]
