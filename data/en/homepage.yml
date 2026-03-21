@@ -1,0 +1,159 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "Mercury Consortium's <br> 2026 Conference"
+  #bg_image: "images/banner/banner-2.jpg"
+  bg_image: "images/banner/mercurybanner.png"
+  date_time : "July 22-24 2026"
+  button:
+    enable : "Get Details"
+    label : "Get Details"
+    link : "about"
+
+########################## timer #################################
+timer:
+  enable : true
+  title : "**Count the day** <br> until conference start"
+  # set timer
+  year: "2026"
+  month: "07"
+  day: "22"
+  hour: "01"
+
+#### TODO BELOW HERE ####
+############################## Event ##############################
+event:
+  enable : true
+  title_outline : "event"
+  title : "Collaborating to Improve Undergrad Research in Computational Chemistry"
+  image_back : "images/places/burruss-hall.png"
+  image_front : "images/crawford.jpg"
+  content : "The 2026 conference will be hosted by Daniel Crawford and MolSSI at Virginia Tech July 22-24. 
+             The conference is an excellent forum for undergraduates to present their work and to learn from experts in the field, allowing them to put their own research into perspective. 
+             It is equally valuable as a networking event for faculty working with undergraduates. Undergraduates from all types of institutions are invited to come present their work. 
+             We have an amazing group of speakers lined up."
+  button:
+    enable : true
+    label : "How to Get Here"
+    link : "travel"
+
+######################### Call to action #########################
+cta:
+  enable : false
+  subtitle : ""
+  title : ""
+  image : ""
+  button:
+    enable : true
+    label : "Register Now"
+    link : "register"
+
+############################# Feature ###########################
+feature: # TODO: Use this as a past events thing
+  enable: true
+  feature_item: 
+    # feature item loop
+    - name : "Visit the Main Mercury Website"
+      image: "images/logo.png"
+      url: "https://mercuryconsortium.org/"
+      content : "See details about the consortium, our mission, and learn how to get involved."
+      
+    # feature item loop
+    - name : "See the Past Conference from 2025"
+      icon : "tf-ion-skip-backward"
+      content : "Look at last speakers and workshops from the Pittsburgh conference in 2025!"
+      url: "https://www.mercuryconsortium.org/conference-2025/"
+
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### register #############################
+register:
+  enable : true
+  # register data comes from "register.yml" file
+
+########################## speaker ##########################
+speaker:
+  enable : true
+  title_outline : "Speakers"
+  title : "Who're speaking"
+  content : "We have a number of invited speakers coming to talk about their works and experiences teaching and training computational chemistry."
+  # speaker content comes from "content/speaker" folder
+
+######################### sponsor ############################
+sponsor:
+  enable :  true
+  title_outline : "Sponsors"
+  title : "Sponsors and Donors for the Mercury Conferences"
+  sponsor_group:
+    ############################ sponsor group loop
+    - title : "This Year's Sponsors"
+
+    - title : "2025 Conference Sponsors"
+      sponsor:
+        - logo : "images/sponsors/pqi-white-sponsor.png"
+          link : "https://www.pqi.org/"
+          
+        - logo : "images/sponsors/QCLogo-sponsor.png"
+          link : "https://www.q-chem.com/"
+        
+        - logo : "images/sponsors/MOLSSI-sponsor.jpeg"
+          link : "https://molssi.org/"
+          
+          
+    - title : "2024 Conference Sponsors"
+      sponsor:
+        - logo : "images/sponsors/MOLSSI-sponsor.jpeg"
+          link : "https://molssi.org/"
+          
+        - logo : "images/sponsors/UCMercedChemistryBioChemistry-sponsor.jpg"
+          link : "#"
+        
+        - logo : "images/sponsors/UCMercedGraduateDivision-sponsor.jpg"
+          link : "#"
+        
+        - logo : "images/sponsors/UCMercedNaturalSciences-sponsor.png"
+          link : "#"
+
+        - logo : "images/sponsors/cccat_logo-sponsor.jpg"
+          link : "#"
+
+        - logo : "images/sponsors/CIRTUCMLogo-sponsor.png"
+          link : "#"
+
+        - logo : "images/sponsors/OpenEyeLogo-sponsor.png"
+          link : "#"
+  
+        - logo : "images/sponsors/OverleafLogo-sponsor.png"
+          link : "#"
+
+  # call to action in sponsor
+  sponsorship:
+    enable : true
+    title : "Want to be a sponsor?"
+    #button
+    label : "Find Out How"
+    link : "https://www.mercuryconsortium.org/sponsoring-opportunities/"
+
+################################ venue ########################
+venue:
+  enable : true
+  title : "Venue Information"
+  image : "images/banner/aerial-campus.jpg"
+  date : "July 22-24, 2016"
+  location : "Virginia Polytechnic Institute (Vriginia Tech)<br> Blacksburg, VA; U.S.A."
+  button: 
+    enable : true
+    label : "Plan your trip"
+    link : "travel"
+
+############################### Blog ######################################
+blog:
+  enable : false
+  title_outline : "News"
+  title : "Latest News"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder

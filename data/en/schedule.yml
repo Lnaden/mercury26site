@@ -1,0 +1,127 @@
+schedule:
+  enable : true
+  title_outline : "schedule"
+  title : "Topic Discussion"
+  content : "Speakers and Activities for Each Day."
+  schedule_tab:
+    ################# tab itam loop ################
+    - title : "Day 1"
+      date_time : "July 22, 2026 [09:00am - 04:00pm]"
+      schedule_items:
+        - time : "9:00am"
+          image : "images/groups/molssi_main_logo.png"
+          content : "
+          
+          ### Welcome and Introduction
+
+          ###### By Daniel Crawford
+
+          Host of the Conference and Director of the Molecular Sciences Software Institute, MolSSI 
+          "
+          
+        - time : "10:45am"
+          image : "images/arm.jpg"
+          content : "
+          
+          ### Ashely Ringer McDonald Everyone!
+
+          ###### Ashely Ringer McDonald
+
+          You know her, you love her!
+          "
+          
+        - time : "12:00pm"
+          image : "images/placeholders/lunch-ph.jpg"
+          content : "
+          
+          ### [PH] Lunch Break
+
+          ###### Provided by Pork Chop Sandwiches! 
+
+          Om nom nom nom
+          "
+          
+        - time : "2.00pm"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Waffles made of chicken 
+
+          ###### By Sir Waffle
+
+          Apply Chemistry skills to make waffles from scratch the way Mr. Sagan explained how to make an apple pie.
+          "
+          
+    ################# tab item loop ################
+    - title : "Day 2"
+      date_time : "July 23, 2026 [09:00am - 04:00pm]"
+      schedule_items:
+        - time : "9:00am"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Using matter/antimatter reactions to make waffles
+
+          ###### By Waffle in a Red Shrit
+
+          If it works for Star Trek...
+          "
+
+        - time : "12:00pm"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Lunch Break
+
+          ###### Eatting Waffles
+
+          Tasty tasty waffles
+          "
+          
+        - time : "3.00pm"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Writting JavaScript injection routines to turn every page into a waffle recipe
+
+          ###### By Virus Waffle
+
+          Hacker Extreme with deep Pockets
+          "
+          
+    ################# tab item loop ################
+    - title : "Day 3"
+      date_time : "July 24, 2026 [09:00am - 04:00pm]"
+      schedule_items:
+        - time : "9:00am"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Merlin knew how to summon future waffles from our time
+
+          ###### By Merlin, Waffle Connoisseur
+
+          Abracawaffle!
+          "
+
+        - time : "12:00pm"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Launch Break
+
+          ###### Sending Waffles to Mars
+
+          Martians gotta eat too, may as well send them some waffles
+          "
+          
+        - time : "4.00pm"
+          image : "images/placeholders/waffle-ph.jpg"
+          content : "
+          
+          ### [PH] Conclusion, photos, waffle gift bags.
+
+          ###### By Levi Naden, placeholder generator
+
+          Because the word 'Waffle' is unlikely to show up in your writting, everywhere it appears looks odd and you can then replace them easier (and it gives a search term when finding them)
+          "

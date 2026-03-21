@@ -1,0 +1,13 @@
+{
+  "name": "saasis-hugo",
+  "description": "saas theme for hugo",
+  "version": "3.3.2",
+  "license": "UNLICENSED",
+  "author": "gethugothemes",
+  "scripts": {
+    "dev": "hugo server --themesDir themes",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic --themesDir themes",
+    "vercel-build": "./vercel-build.sh",
+    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify --themesDir themes"
+  }
+}

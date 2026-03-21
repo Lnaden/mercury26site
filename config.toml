@@ -1,0 +1,175 @@
+######################## default configuration ####################
+baseURL = "/"
+title = "Mercury Conference 2026"
+theme = "vixcon-hugo"
+# post pagination
+pagination.pagerSize = 4
+# post excerpt
+summaryLength = "10"
+# disable language
+disableLanguages = [] # desable language from here
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/syotimer/syotimer.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+############################## navigation ###############################
+[menu]
+
+[[menu.main]]
+name = "Conference Schedule"
+pageRef = "/"
+weight = 2
+[menu.main.params]
+fragment = "schedule"
+
+[[menu.main]]
+name = "Speakers"
+pageRef = "/"
+weight = 3
+[menu.main.params]
+fragment = "speakers"
+
+[[menu.main]]
+name = "Travel"
+weight = 3
+URL = "travel/"
+hasChildren = true
+
+    [[menu.main]]
+    parent = "Travel"
+    weight = 1
+    name = "Getting to Blacksburg and Virginia Tech"
+    pageRef = "travel/"
+
+    [[menu.main]]
+    parent = "Travel"
+    weight = 2
+    name = "Where to Stay in Blacksburg"
+    pageRef = "travel/"
+    [menu.main.params]
+    fragment = "hotels"
+
+    [[menu.main]]
+    parent = "Travel"
+    weight = 3
+    name = "Getting to and Around Campus"
+    pageRef = "travel/"
+    [menu.main.params]
+    fragment = "city-and-campus-busses"
+
+[[menu.main]]
+name = "Contacts"
+URL = "contact/"
+weight = 5
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Registration and Information site for the Mercury Consortium's 2026 Conference at Virginia Tech"
+author = "Levi Naden of the Molecular Sciences Software Institute (MolSSI)"
+# email address
+email = "info@molssi.org"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# search for blog page
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Register"
+link = "register/"
+
+
+# Subscription TODO
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBt7GqPwYtUDc7CN9NIII2645hNISotR_Y"
+map_latitude = "37.2283885"
+map_longitude = "-80.4259916"
+map_marker = "images/marker.png"
+
+
+############################# social icon ############################
+[[params.social]]
+icon = "tf-ion-social-facebook"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-twitter"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-linkedin"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-pinterest"
+link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-rss"
+link = "#"
+
+
+################################### English language #####################################
+[languages.en]
+    contentDir = "content/english"
+    languageName = "En"
+    languageCode = "en-us"
+
+weight = 1
+home = "Home"
+# footer content
+footer_content = "Molecular Education and Research Consortium in Undergraduate computational chemistRY"
+# copyright
+copyright = "Copyright &copy; 2026 Mercury Consortium; 2020 a hugo theme by [themefisher](https://themefisher.com)"

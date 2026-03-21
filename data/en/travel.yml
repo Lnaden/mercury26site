@@ -1,0 +1,104 @@
+################## about #################################
+about:
+  enable : true
+  image : "images/banner/aerial-campus.jpg"
+  title : "Virginia Polytechnic Institute (**Virginia Tech**)"
+  content : "VT is located in the heart of lovely Blacksburg, Virginia, USA. Use the information on this page to plan your trip. "
+################## sponsor ###############################
+sponsor:
+  enable : false
+  # sponsor data comes from "homepage.yml" file
+
+
+################## Staging ##############################
+travel:
+  enable : 
+    - flight
+    - drive
+    - hotel
+    - campus
+
+  flight:
+    subtitle : "Blacksburg is about 1 hour from Roanoke, 4 hours from Washington D.C., and 3 hours from Charlotte, NC."
+    title : "**Flying** In"
+    icon : "tf-ion-plane"
+    button:
+      enable : false
+      label : "Get ticket"
+      link : "pricing"
+    content: "Roanoke-Blacksburg Regional Airport (ROA) is the closest airport to Blacksburg, and is served by American Airlines, Delta, and United. The airport is about 40-60 minutes from campus. Other nearby airports include Washington Dulles International Airport (IAD), Washington National Airport (DCA), Charlotte Douglas International Airport (CLT), and Raleigh-Durham International Airport (RDU)."
+    
+    map: 
+      enable : true
+      embed_map_id : "mid=17rJ7ql8FwW75gVEeNZx118SreTsDC8M&ehbc=2E312F&noprof=1"
+      caption : "Map of nearby airports and their distance to Blacksburg, VA"
+
+
+
+  drive:
+    subtitle : "You will likely have some drive time no matter where you come from."
+    title : "**Driving** In"
+    icon : "tf-ion-android-car"
+    button:
+      enable : false
+      label : "Get ticket"
+      link : "pricing"
+    content: | 
+      Some basic information on driving to Blacksburg:
+
+      #### Coming From the West/Southwest
+        * Take I-81 North until you get to US-460 West, then take US-460 West into Blacksburg
+        * "Black" Arrows into "Orange" on the map 
+      
+      #### Coming from the South
+        * Take I-77 North until you get to I-81 North
+        * Follow instructions for West/Southwest above.
+        * "Black" Arrows into "Orange" on the map
+      
+      #### Coming from the East and Northeast
+        * Take I-81 West until you get to US-460 West, then take US-460 West into Blacksburg
+        * "Purple" Arrow into "Orange" on the map
+      
+      #### Coming from the North/Northwest
+        * Take I-77 South until you get to US-460 East, then take US-460 East into Blacksburg
+        * "Green" Arrow on the map
+      
+    
+    map: 
+      enable : true
+      embed_map_id : "mid=1kiFlXPJV52PXMzBGG-62zTzEgEEwkvw&ehbc=2E312F&noprof=1"
+      caption : "In general: I-81 until you get to US-460, then take US-460 until you get to Blacksburg. The exact directions depend on where you're coming from, but the map below gives a general idea of the routes to take from nearby cities."
+
+  hotel:
+    subtitle : "The Closest Hotel to the event is PLACEHOLDER Blacksburg and Christiansburg hotels will both have you near campus."
+    title : "**Hotels**"
+    icon : "tf-ion-ios-cloudy-night"
+    content: | 
+      Some hotels in Blacksburg to consider:
+
+      * X
+      * Y
+      * Z
+
+    map:
+      enable : true
+      embed_map_id : "mid=16iFNwbTqBZRDwrORh4YksgaOABc7mGs&ehbc=2E312F&noprof=1"
+      caption : "Each of the pinned hotels on the map has a link to their booking page in the description."
+
+  campus:
+    subtitle : "VT Provides a regular bus service all around Blacksburg and Campus."
+    title : "City and **Campus** Busses"
+    icon : "tf-ion-android-bus"
+    content: | 
+      The Blacksburg Transit (BT) bus system provides regular service around Blacksburg and to the VT campus. The bus system is free to use for everyone, and is a convenient way to get around town and to campus. 
+      For those staying in hotels in Blacksburg, the bus system provides regular service to and from campus. For those staying in hotels in Christiansburg, the bus system provides regular service to and from campus, 
+      but the schedule is less frequent than for hotels in Blacksburg.
+
+      For those driving, there are several parking options available on campus, including parking garages and surface lots. We recommend using the parking garage closest to the event venue for convenience.
+
+      TODO: Determine where the event is at to see if parking is an option.
+
+    image:
+      image_path : "images/groups/BTlogoRGB.png"
+      url: "https://ridebt.org/"
+      caption : ""
