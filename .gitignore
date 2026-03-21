@@ -1,3 +1,14 @@
+# Hugo Files
+/public/
+/resources/
+.hugo_build.lock
+
+# Node Dependencies
+node_modules/
+# Package lock since I dont need hard dependencies
+package-lock.json
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
