@@ -30,3 +30,33 @@
     @extend %styled-link;
 }
 
+[class*="col-"] p a {
+    @extend %styled-link;
+}
+
+.lightbox-trigger {
+  cursor: zoom-in;
+}
+
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;                        // covers full viewport
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    display: flex;
+  }
+
+  img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    cursor: default;
+  }
+}
+

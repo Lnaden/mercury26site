@@ -1,11 +1,76 @@
 schedule:
   enable : true
   title_outline : "schedule"
-  title : "Topic Discussion"
-  content : "Speakers and Activities for Each Day."
+  title : "Travel and Schedule Information"
+  content : "Participants attending the MolSSI workshop should plan to travel to Blacksburg on Monday, July 20.  
+
+
+             Other conference attendees should plan to arrive on Wednesday, July 22.  
+
+
+             The conference kicks off on Wednesday night with the opening reception at TODO:X:XX pm. 
+
+             All times are in Eastern Time (EST, UTC-05:00).  The conference schedule is subject to change, so please check back for updates."
   schedule_tab:
     ################# tab itam loop ################
-    - title : "Day 1"
+    - title: "Workshop Travel"
+      date_time : "July 20, 2026"
+      schedule_items:
+        - time : "4:00 PM - 7:00 PM"
+          content : "### Dorm Check In"
+          image: "images/groups/vt_logo.svg"
+    
+    - title : "Workshop Day 1"
+      date_time : "July 21, 2026 "
+      schedule_items:
+        - time : "9:00 AM - 4:00 PM"
+          image : "images/groups/molssi_main_logo.png"
+          content : "### MolSSI Workshop"
+
+    - title : "Workshop Day 2<br>General Conference Check In"
+      date_time : "July 22, 2026 "
+      schedule_items:
+        - time : "9:00 AM - 4:00 PM"
+          image : "images/groups/molssi_main_logo.png"
+          content : "### MolSSI Workshop"
+
+        - time : "2:00 PM - 4:00 PM"
+          image : "images/groups/vt_logo.svg"
+          content : "### Dorm Check In for General Conference Attendees"
+
+        - time : "TODO: TBD"
+          image : "images/logo.png"
+          content : "### Welcome Reception For All Attendees"
+
+    - title : "Main Conference<br>Day 1"
+      date_time : "July 23, 2026 "
+      schedule_items:
+        - time : "TODO: TBD"
+          image : "images/logo.png"
+          content : "### Stuff and things!
+                     
+                    ##### And things and stuff!
+                  "
+
+    - title : "Main Conference<br>Day 2"
+      date_time : "July 24, 2026 "
+      schedule_items:
+        - time : "9:00 AM - 1:00 PM"
+          image : "images/logo.png"
+          content : "### Stuff and things!
+                     
+                    ##### And things and stuff!
+                  "
+        - time : "1:00 PM and beyond"
+          image : "images/logo.png"
+          content : "### Conference Conclusion and Farewell
+                     
+                    ##### Safe travels home everyone!
+                  "
+
+
+#TODO: Probably remover
+    - title : "Placeholder<br>Probably Remove from here forward"
       date_time : "July 22, 2026 [09:00am - 04:00pm]"
       schedule_items:
         - time : "9:00am"

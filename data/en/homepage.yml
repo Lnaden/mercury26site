@@ -6,7 +6,7 @@ banner:
   bg_image: "images/banner/mercurybanner.png"
   date_time : "July 22-24 2026"
   button:
-    enable : "Get Details"
+    enable : false
     label : "Get Details"
     link : "about"
 
@@ -27,15 +27,15 @@ event:
   title_outline : "event"
   title : "Collaborating to Improve Undergrad Research in Computational Chemistry"
   image_back : "images/places/burruss-hall.png"
-  image_front : "images/crawford.jpg"
+  image_front : "images/groups/vt_logo_vert.png"
   content: "The 2026 annual MERCURY Conference for undergraduate computational
             chemistry will be held the week of July 20, 2026. [MERCURY](http://www.mercuryconsortium.org/) is delighted to have
-            Prof. Daniel Crawford and the Molecular Sciences Software Institute host the
+            Prof. Daniel Crawford and the 
+            [Molecular Sciences Software Institute](https://molssi.org/) host the
             conference on the Virginia Tech campus in Blacksburg, VA.
 
 
-            The conference includes six outstanding plenary speakers (can link to a page with
-            speaker bios or to the MERCURY page with that info), an undergraduate poster
+            The conference includes six outstanding [plenary speakers](#speakers), an undergraduate poster
             session, and evening social and networking events. The conference is an excellent
             forum for undergraduates to present their work and to learn from experts in the
             field, allowing them to put their own research into perspective. It is equally
@@ -91,8 +91,9 @@ workshop:
   enable : true
   title_outline : "Workshop"
   title : "MolSSI Special Workshop"
-  image_back : "images/places/burruss-hall.png"
-  image_front : "images/crawford.jpg"
+  image_back : "images/groups/molssi_rice_2021.jpg"
+  image_front : "images/groups/molssi_main_logo.png"
+  front_bg : true
   content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on {TOPIC TO BE DECIDED}.  
             In this workshop, students will learn {DESCRIPTION TO BE ADDED} 
            

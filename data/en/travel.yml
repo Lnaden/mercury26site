@@ -3,7 +3,10 @@ about:
   enable : true
   image : "images/banner/aerial-campus.jpg"
   title : "Virginia Polytechnic Institute (**Virginia Tech**)"
-  content : "VT is located in the heart of lovely Blacksburg, Virginia, USA. Use the information on this page to plan your trip. "
+  content : |
+    VT is located in the heart of lovely Blacksburg, Virginia, USA. Use the information on this page to plan your trip.
+
+    The conference will take place at [Goodwin Hall](https://www.vt.edu/about/locations/buildings/signature-engineering.html), which is on the VT campus.
 ################## sponsor ###############################
 sponsor:
   enable : false
@@ -14,6 +17,7 @@ sponsor:
 travel:
   enable : 
     - flight
+    - public_transportation
     - drive
     - hotel
     - campus
@@ -33,10 +37,29 @@ travel:
       embed_map_id : "mid=17rJ7ql8FwW75gVEeNZx118SreTsDC8M&ehbc=2E312F&noprof=1"
       caption : "Map of nearby airports and their distance to Blacksburg, VA"
 
+  public_transportation:
+    subtitle : "If flying into Roanoke, there is a public bus that goes to Blacksburg."
+    title : "Bus from ROA to **Campus**"
+    icon : "tf-ion-android-bus"
+    content: | 
+      There is a bus service that runs from the Roanoke airport (ROA) regularly. It is operated by [Valley Metro's Smart Way](https://www.valleymetro.com/services/smart-way-services) service. No advance ticket is 
+      required and you can pay when boarding the bus; it costs $1.75 for a one way ticket and is **CASH ONLY** when paid on the bus itself, with exact change needed. The same service can be used to return to the airpot from the Transit Hub.
+
+      The Smart Way bus will drop you off on campus at the [VT Transit Center](https://www.facilities.vt.edu/design-construction/capital-construction/campus-construction-projects/multi-modal-transit-facility.html) 
+      in the heart of campus. From there, you can ride any number of [Blacksburg Transit (BT)](/travel/#city-and-campus-busses) busses to get around campus and Blacksburg more broadly.
+
+    image:
+      image_path : "images/places/map_to_goodwin.png"
+      url: ""
+      caption : ""
+
 
 
   drive:
-    subtitle : "You will likely have some drive time no matter where you come from."
+    subtitle : |
+      You will likely have some drive time no matter where you come from.
+
+      <u>If you are driving to the conference and you will need parking on campus, please indicate that on your registration form.</u>
     title : "**Driving** In"
     icon : "tf-ion-android-car"
     button:
@@ -70,15 +93,16 @@ travel:
       caption : "In general: I-81 until you get to US-460, then take US-460 until you get to Blacksburg. The exact directions depend on where you're coming from, but the map below gives a general idea of the routes to take from nearby cities."
 
   hotel:
-    subtitle : "The Closest Hotel to the event is PLACEHOLDER Blacksburg and Christiansburg hotels will both have you near campus."
+    subtitle : "The Closest Hotel to the event is either the Hyatt Place or the Residence Inn, however, both Blacksburg and Christiansburg hotels will both have you near campus."
     title : "**Hotels**"
     icon : "tf-ion-ios-cloudy-night"
     content: | 
       Some hotels in Blacksburg to consider:
 
-      * X
-      * Y
-      * Z
+      * (Hyatt Place)[https://www.hyatt.com/en-US/hotel/virginia/hyatt-place-blacksburg-university/cltzb]
+      * (Residence Inn by Marriott Blacksburg-University)[https://www.marriott.com/en-us/hotels/roarb-residence-inn-blacksburg-university/overview/]
+      * (The Inn at Virginia Tech)[https://be.synxis.com/?Hotel=32532&Chain=5388&rate=HOKIE]
+      * (Holiday Inn Express)[https://www.ihg.com/holidayinnexpress/hotels/us/en/blacksburg/bcbbg/hoteldetail]
 
     map:
       enable : true

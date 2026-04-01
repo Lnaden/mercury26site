@@ -3,18 +3,50 @@
 	border-radius: 5px;
 }
 
+#TopicTabNav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-items: stretch;    // add this
+}
+
 .nav-justified .nav-item {
 	text-align: left !important;
 }
 
+.nav-pills .nav-item {
+  min-width: max-content;  // adjust to your preferred minimum
+  width: max-content;  // sizes to content naturally
+  flex: 0 0 auto;
+  display: flex;        // add this
+  flex-direction: column;    // change from before
+  text-align: center !important;
+}
+
 .nav-pills .nav-link {
 	border-radius: 0px;
-	padding: 20px 30px;
+	padding: 8px 30px;
+	display: flex;              // add this
+  	flex-direction: column;     // add this
+  	flex: 1;                   // replaces height: 100%
 	-webkit-transition: all .45s ease;
 	-moz-transition: all .45s ease;
 	-ms-transition: all .45s ease;
 	-o-transition: all .45s ease;
 	transition: all .45s ease;
+
+	h3, h5 {           // <-- add this block
+    margin: 0;
+    line-height: 1.2;
+	white-space: nowrap;    // add this back
+  }
+
+  p {
+    margin-top: auto;         // pushes p to the bottom
+    margin-bottom: 0;
+	text-align: left !important;
+  }
+
+
 }
 
 .nav-pills .nav-link.active {
@@ -22,7 +54,7 @@
 	border-radius: 8px;
 	position: relative;
 
-	h2 {
+	h3 {
 		color: $white;
 	}
 

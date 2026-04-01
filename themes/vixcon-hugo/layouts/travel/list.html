@@ -2,6 +2,11 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+<!-- Lightbox container needs to be outside other containers -->
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <img id="lightboxImg">
+</div>
+
 <!-- about -->
 {{ if $data.travel.about.enable }}
 {{ with $data.travel.about }}
@@ -96,10 +101,12 @@
             {{ end }}
             {{ with .image}}
               <div class="row h-80">
+                {{ $lightBox := "lightbox-trigger"}}
                 {{ with .url}}
                   <a href="{{ . | safeURL }}" target="_blank">
+                  {{ $lightBox := ""}}
                 {{ end }}
-                  <img src="{{ .image_path | absURL }}" alt="" class="img-fluid">
+                  <img src="{{ .image_path | absURL }}" alt="" class="img-fluid {{$lightBox}}">
                  {{ with .url}}
                   </a>
                 {{ end }}

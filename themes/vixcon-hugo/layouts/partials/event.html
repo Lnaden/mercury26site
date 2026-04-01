@@ -9,7 +9,11 @@
       <div class="col-lg-5">
         <div class="about-img position-relative">
           <img src="{{ .image_back | absURL }}" alt="" class="img-fluid w-100">
-          <div class="img-block">
+          {{$bg := ""}}
+          {{ with .front_bg }}
+            {{ $bg = "with-fill" }}
+          {{ end }} 
+          <div class="img-block {{ $bg }}">
             <img src="{{ .image_front | absURL }}" alt="" class="img-fluid">
           </div>
         </div>
