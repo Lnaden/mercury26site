@@ -1,0 +1,30 @@
+{{range .}}
+    <div class="row justify-content-center align-items-center mb-3">
+      {{ range . }}
+      <div class="col-lg-4 col-md-6">
+        <div class="package style-{{ .style }} bg-white mb-5 mb-lg-0">
+          <div class="price-header mb-4" style="background-image: url('{{ .bg_image | absURL }}');">
+            {{ with .icon }}
+              <i class="{{ . }}"></i>
+            {{ end }}
+            {{ with .image }}
+              <img src="{{ . | absURL }}" alt="" class="img-fluid">
+            {{ end }}
+            <h2 class="mt-4 text-white">{{ .price }}</h2>
+          </div>
+          {{ with .title }}
+            <h6 class="pname">{{ . | markdownify }}</h6>
+          {{ end }}
+          <ul class="list-unstyled ">
+            {{ range .services}}
+            <li>{{ . | markdownify }}</li>
+            {{ end }}
+          </ul>
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" class="btn btn-secondary btn-rounded mt-3 mb-5">{{ .label }}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+{{ end }}

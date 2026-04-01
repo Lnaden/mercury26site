@@ -35,7 +35,7 @@
 
 <!-- event  -->
 {{ if $data.register.event.enable }}
-{{ partial "event.html" . }}
+{{ partial "event.html" (dict "data" $data "key" "event") }}
 {{ end }}
 <!-- /event -->
 

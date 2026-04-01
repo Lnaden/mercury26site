@@ -1,0 +1,32 @@
+%styled-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s ease;
+
+  &:visited {
+    color: #551a8b;
+  }
+
+  &:hover {
+    color: #0044aa;
+  }
+
+  &:active {
+    color: #cc0000;
+  }
+}
+
+.ml-90 p a {
+    @extend %styled-link;
+
+}
+
+.list-unstyled li a {
+    @extend %styled-link;
+}
+
+.text-white-50 a {
+    @extend %styled-link;
+}
+

@@ -1,7 +1,7 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "Mercury Consortium's <br> 2026 Conference"
+  title : "MERCURY Conference 2026"
   #bg_image: "images/banner/banner-2.jpg"
   bg_image: "images/banner/mercurybanner.png"
   date_time : "July 22-24 2026"
@@ -28,33 +28,54 @@ event:
   title : "Collaborating to Improve Undergrad Research in Computational Chemistry"
   image_back : "images/places/burruss-hall.png"
   image_front : "images/crawford.jpg"
-  content : "The 2026 conference will be hosted by Daniel Crawford and MolSSI at Virginia Tech July 22-24. 
-             The conference is an excellent forum for undergraduates to present their work and to learn from experts in the field, allowing them to put their own research into perspective. 
-             It is equally valuable as a networking event for faculty working with undergraduates. Undergraduates from all types of institutions are invited to come present their work. 
-             We have an amazing group of speakers lined up."
+  content: "The 2026 annual MERCURY Conference for undergraduate computational
+            chemistry will be held the week of July 20, 2026. [MERCURY](http://www.mercuryconsortium.org/) is delighted to have
+            Prof. Daniel Crawford and the Molecular Sciences Software Institute host the
+            conference on the Virginia Tech campus in Blacksburg, VA.
+
+
+            The conference includes six outstanding plenary speakers (can link to a page with
+            speaker bios or to the MERCURY page with that info), an undergraduate poster
+            session, and evening social and networking events. The conference is an excellent
+            forum for undergraduates to present their work and to learn from experts in the
+            field, allowing them to put their own research into perspective. It is equally
+            valuable as a networking event for faculty working with undergraduates.
+            Undergraduates from all types of institutions are invited to come present their
+            work."
+  # content : "The 2026 conference will be hosted by Daniel Crawford and MolSSI at Virginia Tech July 22-24. 
+  #            The conference is an excellent forum for undergraduates to present their work and to learn from experts in the field, allowing them to put their own research into perspective. 
+  #            It is equally valuable as a networking event for faculty working with undergraduates. Undergraduates from all types of institutions are invited to come present their work. 
+  #            We have an amazing group of speakers lined up."
   button:
     enable : true
     label : "How to Get Here"
     link : "travel"
 
 ######################### Call to action #########################
-cta:
-  enable : false
+cta:  # Abused to have about the mercury group here
+  enable : true
   subtitle : ""
-  title : ""
-  image : ""
+  title : "About the MERCURY Consortium"
+  image : "images/logo.png"
+  content: "The consortium, known as the Molecular Education and Research Consortium in
+            Undergraduate computational chemistry (MERCURY) was founded in 2001 with the
+            goal of establishing research collaboration among seven computational chemistry
+            faculty from primarily undergraduate institutions (PUIs). The consortium members
+            share NSF-funded computational facilities and meet at an annual MERCURY
+            conference to network and present their research."
   button:
-    enable : true
+    enable : false 
     label : "Register Now"
     link : "register"
 
 ############################# Feature ###########################
-feature: # TODO: Use this as a past events thing
+feature: # Link with CTA above, using it to provide external links to the main website and past conference information
   enable: true
   feature_item: 
     # feature item loop
     - name : "Visit the Main Mercury Website"
-      image: "images/logo.png"
+      # image: "images/logo.png
+      icon: "tf-ion-ios-world"
       url: "https://mercuryconsortium.org/"
       content : "See details about the consortium, our mission, and learn how to get involved."
       
@@ -64,6 +85,27 @@ feature: # TODO: Use this as a past events thing
       content : "Look at last speakers and workshops from the Pittsburgh conference in 2025!"
       url: "https://www.mercuryconsortium.org/conference-2025/"
 
+
+############################## Workshop ##############################
+workshop:
+  enable : true
+  title_outline : "Workshop"
+  title : "MolSSI Special Workshop"
+  image_back : "images/places/burruss-hall.png"
+  image_front : "images/crawford.jpg"
+  content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on {TOPIC TO BE DECIDED}.  
+            In this workshop, students will learn {DESCRIPTION TO BE ADDED} 
+           
+           
+            The workshop is open to undergraduate students and faculty attending the MERCURY Conference at no additional charge, thanks to sponsorship from 
+            [the Molecular Sciences Software Institute](https://molssi.org/). 
+            
+            
+            Please indicate on your registration form if you plan to attend the MolSSI workshop."
+  button:
+    enable : false
+    label : ""
+    link : ""
 
 ####################### Schedule #############################
 schedule:
