@@ -93,10 +93,11 @@ hasChildren = true
     [menu.main.params]
     fragment = "city-and-campus-busses"
 
-[[menu.main]]
-name = "Contacts"
-URL = "contact/"
-weight = 5
+## Disabled contacts for now
+#[[menu.main]]
+#name = "Contacts"
+#URL = "contact/"
+#weight = 5
 
 #################### default parameters ################################
 [params]

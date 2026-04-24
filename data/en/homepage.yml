@@ -20,7 +20,6 @@ timer:
   day: "22"
   hour: "01"
 
-#### TODO BELOW HERE ####
 ############################## Event ##############################
 event:
   enable : true
@@ -94,8 +93,7 @@ workshop:
   image_back : "images/groups/molssi_rice_2021.jpg"
   image_front : "images/groups/molssi_main_logo.png"
   front_bg : true
-  content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on {TOPIC TO BE DECIDED}.  
-            In this workshop, students will learn {DESCRIPTION TO BE ADDED} 
+  content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on TBD (Likely Molecular Docking! Final choices being made).
            
            
             The workshop is open to undergraduate students and faculty attending the MERCURY Conference at no additional charge, thanks to sponsorship from 
@@ -122,7 +120,7 @@ register:
 speaker:
   enable : true
   title_outline : "Speakers"
-  title : "Who're speaking"
+  title : "Who's speaking"
   content : "We have a number of invited speakers coming to talk about their works and experiences teaching and training computational chemistry."
   # speaker content comes from "content/speaker" folder
 
@@ -134,6 +132,9 @@ sponsor:
   sponsor_group:
     ############################ sponsor group loop
     - title : "This Year's Sponsors"
+      sponsor:
+        - logo : "images/sponsors/MOLSSI-sponsor.jpeg"
+          link : "https://molssi.org/"
 
     - title : "2025 Conference Sponsors"
       sponsor:
@@ -175,7 +176,7 @@ sponsor:
 
   # call to action in sponsor
   sponsorship:
-    enable : true
+    enable : false
     title : "Want to be a sponsor?"
     #button
     label : "Find Out How"

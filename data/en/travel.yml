@@ -118,11 +118,11 @@ travel:
       For those staying in hotels in Blacksburg, the bus system provides regular service to and from campus. For those staying in hotels in Christiansburg, the bus system provides regular service to and from campus, 
       but the schedule is less frequent than for hotels in Blacksburg.
 
-      For those driving, there are several parking options available on campus, including parking garages and surface lots. We recommend using the parking garage closest to the event venue for convenience.
-
-      TODO: Determine where the event is at to see if parking is an option.
-
+      For those driving after getting to Blacksburg, parking passes can be issued for on campus parking. There are also several parking options available on campus, including parking garages and surface lots. 
+      
+      <u>**If you are driving in town and you will need parking on campus, please indicate that on your registration form.**</u>
     image:
       image_path : "images/groups/BTlogoRGB.png"
+      no_lightbox : true
       url: "https://ridebt.org/"
-      caption : ""
+      caption : "Click to find schedules and routes."

@@ -104,7 +104,10 @@
                 {{ $lightBox := "lightbox-trigger"}}
                 {{ with .url}}
                   <a href="{{ . | safeURL }}" target="_blank">
-                  {{ $lightBox := ""}}
+                  {{ $lightBox = ""}}
+                {{ end }}
+                {{ with .no_lightbox }}
+                  {{ $lightBox = ""}}
                 {{ end }}
                   <img src="{{ .image_path | absURL }}" alt="" class="img-fluid {{$lightBox}}">
                  {{ with .url}}

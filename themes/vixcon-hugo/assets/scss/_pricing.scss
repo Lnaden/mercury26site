@@ -1,6 +1,8 @@
 .package{
 	text-align: center;
 	box-shadow: 0 11px 22px rgba(34,34,34,.2);
+	display: flex;             // add this
+  	flex-direction: column;    // add this
 
 	.price-header{
 		padding: 60px 0px 60px 0px;
@@ -10,6 +12,7 @@
 	}
 
 	ul {
+		flex: 1;
 		li{
 			padding: 5px 0px;
 			color: $black;
@@ -32,6 +35,14 @@
 		font-size:60px;
 		color:$white;
 	}
+
+	.btn {
+    	align-self: center;    // add this
+	}
+}
+
+.col-lg-4.col-md-6 {
+  display: flex;
 }
 
 .bg-orange{

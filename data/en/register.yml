@@ -14,10 +14,10 @@ pricing:
         content : "Registration fees include on-campus housing in a dormitory (maybe put a link to the specific dorm if available) and meals during the conference.
                   Note that conference attendees **staying in the dorms will need to bring their own linens, towels, and all other needed toiletry items.**"
     -   title_outline : "Deadlines"
-        title : "Conference and Workshop Registration Deadline: TODO:TBD<br>
+        title : "Conference and Workshop Registration Deadline: TBD<br>
 
 
-                Abstract Submission for Poster Deadline: TODO:TBD
+                Abstract Submission for Poster Deadline: TBD
                 "
         content : "Students who wish to present a poster during the poster session at the conference should submit their abstract at the link below.  
                    The abstract is limited to 150 words and one graphic.  The graphic you upload will be shown during your flash talk.  
@@ -39,7 +39,7 @@ pricing:
         - "If staying in Goodwin:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
       button:
         label : "Register Now"
-        link : "#"
+        link : "https://register.cpe.vt.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=10805121"
 
     - title : "Undergraduate Student <br> Single Occupancy"
       style : "1"
@@ -54,7 +54,7 @@ pricing:
         - "If staying in Goodwin:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
       button:
         label : "Register Now"
-        link : "#"
+        link : "https://register.cpe.vt.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=10805121"
 
     - title : "Grad Students<br>Post-Docs<br>Faculty"
       style : "1"
@@ -62,13 +62,14 @@ pricing:
       image : "images/icons/hotel-to-vt.png"
       bg_image : "images/bg/page-header.jpg"
       services:
-        - "Attendees will need to make their own lodging arrangements."
+        - "Atendees can request on-campus lodging through this choice, or..."
+        - "Attendees can make their own lodging arrangements."
         - "[See Recommended Lodging](/travel/#hotels)"
         - "Meals during the conference."
         - "Optional access to the MolSSI workshop."
       button:
         label : "Register Now"
-        link : "#"
+        link : "https://register.cpe.vt.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=10805121"
   
   abstract_table:  
     - title : ""
@@ -82,7 +83,7 @@ pricing:
         - "The graphic you upload will be shown during your flash talk."
         - "For help writting, please consult [the American Chemical Society abstract writing tips](https://www.acs.org/meetings/acs-meetings/spring/presenters/undergraduate-abstract.html) or talk to your research advisor."
       button:
-        label : "Submit Abstract"
+        label : "Submission Coming Soon"
         link : "#"
 
         
