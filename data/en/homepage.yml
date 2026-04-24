@@ -93,7 +93,7 @@ workshop:
   image_back : "images/groups/molssi_rice_2021.jpg"
   image_front : "images/groups/molssi_main_logo.png"
   front_bg : true
-  content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on TBD (Likely Molecular Docking! Final choices being made).
+  content: "The Molecular Sciences Software Institute will offer a workshop for undergraduate students that focuses on Molecular Docking with Python.
            
            
             The workshop is open to undergraduate students and faculty attending the MERCURY Conference at no additional charge, thanks to sponsorship from 

@@ -17,7 +17,7 @@ pricing:
         title : "Conference and Workshop Registration Deadline: TBD<br>
 
 
-                Abstract Submission for Poster Deadline: TBD
+                Abstract Submission for Poster Deadline: Friday July 10th
                 "
         content : "Students who wish to present a poster during the poster session at the conference should submit their abstract at the link below.  
                    The abstract is limited to 150 words and one graphic.  The graphic you upload will be shown during your flash talk.  
@@ -83,8 +83,8 @@ pricing:
         - "The graphic you upload will be shown during your flash talk."
         - "For help writing, please consult [the American Chemical Society abstract writing tips](https://www.acs.org/meetings/acs-meetings/spring/presenters/undergraduate-abstract.html) or talk to your research advisor."
       button:
-        label : "Submission Coming Soon"
-        link : "#"
+        label : "Submit Abstract"
+        link : "https://forms.gle/1jLHh6GQrGXxWdRr9"
 
         
     # # pricing table loop
