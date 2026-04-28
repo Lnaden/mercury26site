@@ -1,8 +1,8 @@
 ################################# timer ############################
 timer:
   enable : true
-  title : "**Count the day** <br>until conference start"
-  content : "Content goes here!"
+  title : "**Count the days** <br>until conference start"
+  content : "Kickoff day for the Welcome Reception"
   # timer value comes from "homepage.yml" file
 
 ################################# Pricing ##########################
@@ -14,7 +14,7 @@ pricing:
         content : "Registration fees include on-campus housing in a dormitory (maybe put a link to the specific dorm if available) and meals during the conference.
                   Note that conference attendees **staying in the dorms will need to bring their own linens, towels, and all other needed toiletry items.**"
     -   title_outline : "Deadlines"
-        title : "Conference and Workshop Registration Deadline: TBD<br>
+        title : "Conference and Workshop Registration Deadline: June 29th, 2026
 
 
                 Abstract Submission for Poster Deadline: Friday July 10th
