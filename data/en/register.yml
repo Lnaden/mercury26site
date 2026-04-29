@@ -11,7 +11,7 @@ pricing:
   headers:
     -   title_outline : "Register"
         title : "Sign up to attend the conference!"
-        content : "Registration fees include on-campus housing in a dormitory (maybe put a link to the specific dorm if available) and meals during the conference.
+        content : "Registration fees include on-campus housing in a dormitory (specific dorm will be chosen in early May) and meals during the conference.
                   Note that conference attendees **staying in the dorms will need to bring their own linens, towels, and all other needed toiletry items.**"
     -   title_outline : "Deadlines"
         title : "Conference and Workshop Registration Deadline: June 29th, 2026
@@ -33,10 +33,10 @@ pricing:
       bg_image : "images/bg/page-header.jpg"
       services:
         - "Occupancy accommodation with another attendee."
-        - Shared room at on-campus [Goodwin Hall](https://www.vt.edu/about/locations/buildings/signature-engineering.html)
+        - Shared room at on-campus dorm.
         - "Meals during the conference."
         - "Optional access to the MolSSI workshop."
-        - "If staying in Goodwin:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
+        - "If staying in dorm:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
       button:
         label : "Register Now"
         link : "https://register.cpe.vt.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=10805121"
@@ -48,10 +48,10 @@ pricing:
       bg_image : "images/bg/page-header.jpg"
       services:
         - "Single occupancy accommodation."
-        - Room at on-campus [Goodwin Hall](https://www.vt.edu/about/locations/buildings/signature-engineering.html)
+        - Room at on-campus dorm.
         - "Meals during the conference."
         - "Optional access to the MolSSI workshop."
-        - "If staying in Goodwin:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
+        - "If staying in dorm:<br> **MUST bring their own linens (twin bed), towels, and all other needed toiletry items.**"
       button:
         label : "Register Now"
         link : "https://register.cpe.vt.edu/portal/events/reg/participantTypeSelection.do?method=load&entityId=10805121"
