@@ -7,7 +7,7 @@ draft: false
 # bg_image : "images/bg/cta-bg.jpg"
 image : "images/speakers/Welborn.jpg"
 designation : "Associate Professor of Chemistry"
-affiliation : "University of Mississippi"
+affiliation : "Virginia Tech"
 email : "vwelborn@vt.edu"
 type : "speaker"
 social: # social site loop
